@@ -7,7 +7,8 @@ module.exports = {
   },
   variants: {
     extend: {
-      padding:['last']
+      padding:['last'],
+      
     },
   },
   plugins: [require("tailwind-scrollbar-hide")],
